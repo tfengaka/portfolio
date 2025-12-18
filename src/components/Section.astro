@@ -1,0 +1,22 @@
+---
+import { cn } from "../utils/cn";
+// Use the new accent color dot style
+interface Props {
+	title: string;
+	className?: string;
+	id?: string;
+}
+
+const { title, className, id } = Astro.props;
+---
+
+<section id={id} class={cn("flex flex-col gap-10 py-16", className)}>
+	<div class="flex items-center justify-center w-full">
+		<h2 class="text-3xl md:text-4xl font-bold text-white relative">
+			{title}<span class="text-accent">.</span>
+		</h2>
+	</div>
+	<div class="flex flex-col gap-8 w-full max-w-4xl mx-auto">
+		<slot />
+	</div>
+</section>

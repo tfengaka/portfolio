@@ -1,0 +1,40 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  entry: CollectionEntry<'experience'>;
+}
+
+const { entry } = Astro.props;
+const { company, role, startDate, endDate, bullets } = entry.data;
+---
+
+<article class="group relative grid grid-cols-1 md:grid-cols-[200px_1fr] gap-4 md:gap-8 p-6 -mx-6 rounded-xl hover:bg-slate-800/20 transition-all duration-300">
+  <div class="flex flex-col">
+    <span class="text-xs font-bold text-accent tracking-wide uppercase font-mono mb-1">
+      {startDate} — {endDate}
+    </span>
+    {/* Optional vertical line decoration could go here */}
+  </div>
+
+  <div class="flex flex-col gap-3">
+    <div class="flex flex-col">
+      <h3 class="text-xl font-bold text-slate-100 group-hover:text-accent transition-colors">{company}</h3>
+      <p class="text-sm font-medium text-slate-400">{role}</p>
+    </div>
+    
+    <ul class="flex flex-col gap-2 relative">
+      {bullets.map((bullet) => (
+        <li class="text-sm text-slate-400 leading-relaxed pl-0">
+          {bullet}
+        </li>
+      ))}
+    </ul>
+    
+    <div class="absolute -bottom-px left-0 md:left-[200px] right-0 h-px bg-slate-800/50 group-hover:bg-slate-800 transition-colors"></div>
+  </div>
+  
+  <div class="absolute top-6 right-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-x-2 group-hover:translate-x-0 text-accent">
+     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+  </div>
+</article>

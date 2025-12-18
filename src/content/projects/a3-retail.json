@@ -1,0 +1,5 @@
+{
+  "name": "A3 Retail Solution",
+  "description": "Refactored statistical charts to improve branch business performance tracking and improved product search speed and promotions on the cash register app.",
+  "techStack": ["ReactJs", "Zustand", "Ant Design", "Vue3", "Pinia", "Quasar Framework", "Firebase", "Apollo GraphQL"]
+}

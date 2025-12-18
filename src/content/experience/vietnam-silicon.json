@@ -1,0 +1,11 @@
+{
+  "company": "VIETNAM SILICON CO., LTD",
+  "role": "Software Engineer",
+  "startDate": "June 2025",
+  "endDate": "Present",
+  "bullets": [
+    "Integration of Stagehand (AI Agent) with Playwright to build an automated testing platform. This initiative reduced test script creation time by 30% for the QC team and accelerated the release cycle.",
+    "Executed a redesign and modernization of the company website, ensuring a user-friendly interface and seamless operation across multiple platforms.",
+    "Conducted code reviews, defined coding standards, and provided hands-on mentorship to junior developers and interns, fostering a culture of continuous learning."
+  ]
+}

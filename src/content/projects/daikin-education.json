@@ -1,0 +1,5 @@
+{
+  "name": "Daikin Education",
+  "description": "Designed the database and implemented the test-taking feature for classes, along with updating the automated certificate generation workflow.",
+  "techStack": ["NodeJS", "Express", "Hasura GraphQL", "PostgreSQL", "Docker", "ReactJs", "Apollo GraphQL", "Material UI"]
+}
