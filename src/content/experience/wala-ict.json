@@ -1,13 +1,14 @@
 {
-  "company": "WALA ICT",
-  "role": "Frontend Software Engineer",
-  "startDate": "Sep 2024",
-  "endDate": "May 2025",
-  "bullets": [
-    "Developed and optimized responsive design web applications and mobile apps.",
-    "Collaborated closely with back-end developers to integrate RESTful APIs, ensuring seamless data flow and dynamic content updating.",
-    "Built reusable components and ensured UI/UX consistency across various devices and browsers.",
-    "Participated in the full product development lifecycle, from requirement analysis to deployment.",
-    "Conducted regular code reviews to maintain high code quality and performance."
-  ]
+    "idx": 1,
+    "company": "WALA ICT",
+    "role": "Frontend Software Engineer",
+    "startDate": "Sep 2024",
+    "endDate": "May 2025",
+    "bullets": [
+        "Developed and optimized responsive design web applications and mobile apps.",
+        "Collaborated closely with back-end developers to integrate RESTful APIs, ensuring seamless data flow and dynamic content updating.",
+        "Built reusable components and ensured UI/UX consistency across various devices and browsers.",
+        "Participated in the full product development lifecycle, from requirement analysis to deployment.",
+        "Conducted regular code reviews to maintain high code quality and performance."
+    ]
 }
